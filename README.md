@@ -9,7 +9,6 @@ The assignment focuses on designing a 4-state FSM to manage traffic at an inters
 * **FSM States:** Supports four distinct states (Green/Red transitions).
 * **Timer Logic:** Internal counter manages the 5-unit delay for S1 and S3.
 * **Input Sensitivity:** Transitions between Street A and Street B are controlled by the `TAORB` signal.
-* **Modular Design:** Separate blocks for state registers, next-state logic, and output logic to ensure synthesizability.
 
 ## Simulation Results
 The following waveform from QuestaSim verifies the timing accuracy and state transition logic:
@@ -19,7 +18,7 @@ The following waveform from QuestaSim verifies the timing accuracy and state tra
 ## Implementation
 * **Language:** SystemVerilog
 * **Tools:** QuestaSim / Vivado
-* **Workflow:** Git-based version control
+* To run the simulation, pick `FSM_Traffic_Lights.sv` as your top entity. Afterwards, run `TB.sv` in your desired simulator.
 
 ## Author
-* [Adın Soyadın] - Hacettepe University, Electrical and Electronics Engineering
+* Ali Özyüksel - Hacettepe University, Electrical and Electronics Engineering
